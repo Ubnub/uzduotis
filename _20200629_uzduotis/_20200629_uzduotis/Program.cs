@@ -64,11 +64,15 @@ namespace _20200629_uzduotis
 
         static void Main(string[] args)
         {
+            Hero Herojus = new Hero("Herojus", "NePaksas", "Herojus Lietuviskai");
+            Villain villain1 = new Villain("Viktor", "Uspaskich", 420);
             Hero hero = new Hero("Rolandas", "Paksas", "Flying with Helicopter");
             Villain villain = new Villain("Setonas", "Pragarauskas", 69696969);
 
             hero.Introduce();
             villain.Introduce();
+            villain1.Introduce();
+            Herojus.Introduce();
 
             Console.ReadLine();
         }
